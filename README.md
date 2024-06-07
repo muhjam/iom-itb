@@ -7,6 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to start develop
+1. Clone this repo
+1. install dependency
+   ```
+   npm install
+   ```
+1. *Configure other stuf (db,cache,search etc)*
+1. Set the `.env` according to `.env.example` file, most environment value documented here.
+1. build the app
+   ```
+   npm run dev
+   ```
+1. start the app
+   ```
+   php artisan serve
+   ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
